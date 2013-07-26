@@ -1,0 +1,2 @@
+#!/bin/bash
+gor replay -f <%= node['gor']['replay']['host'].match(/^http/) ? '' : "http://" %><%= node['gor']['replay']['host'] %> -p <%= node['gor']['replay']['port'] %>

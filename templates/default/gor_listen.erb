@@ -1,0 +1,2 @@
+#!/bin/bash
+gor listen -p <%= node['gor']['listen']['port'] %> -r <%= node['gor']['forward']['host'] %>:<%= node['gor']['replay']['port'] %>
