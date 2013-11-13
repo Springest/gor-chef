@@ -1,6 +1,8 @@
 Description
 ===========
 
+_[Hi, have a look at the blog post](http://devblog.springest.com/testing-big-infrastructure-changes-at-springest/)_
+
 __From the makers of [Gor](https://github.com/buger/gor):__
 
 > Gor is a simple http traffic replication tool written in Go. Its main goal is to replay traffic from production servers to staging and dev environments.
