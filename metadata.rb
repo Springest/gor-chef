@@ -6,6 +6,7 @@
 #
 # Copyright 2012-2013, Wouter de Vos
 #
+name             "gor"
 maintainer       "Wouter de Vos | Springest"
 maintainer_email "wouter@springest.com"
 license          "MIT"

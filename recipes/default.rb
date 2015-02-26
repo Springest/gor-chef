@@ -23,17 +23,17 @@ cookbook_file '/usr/local/bin/gor' do
 end
 
 template '/usr/local/bin/gor_listen' do
-  source 'gor_do.erb'
+  source 'gor_listen.erb'
   owner 'root'
   mode 0744
   action :create
-  only_if( node['gor']['role'] == 'listen' )
+  only_if { node['gor']['role'] == 'listen' }
 end
 
 template '/usr/local/bin/gor_play' do
-  source 'gor_do.erb'
+  source 'gor_play.erb'
   owner 'root'
   mode 0744
   action :create
-  only_if( node['gor']['role'] == 'play' )
+  only_if { node['gor']['role'] == 'play' }
 end
