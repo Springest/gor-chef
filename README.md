@@ -50,7 +50,7 @@ node['gor']['replay']['port']  = 28020
 "gor": {
   "role": "listen",
   "forward": { "host": "staging.example.com" },
-  "replay":  { port": "28020" }
+  "replay":  { "port": "28020" }
 }
 ```
 
