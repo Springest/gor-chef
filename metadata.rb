@@ -15,3 +15,5 @@ version          "0.1.0"
 
 provides "gor"
 recipe   "gor",  "Install the Gor binaries."
+
+depends "go-language-chef-cookbook"

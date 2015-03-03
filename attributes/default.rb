@@ -13,3 +13,6 @@ default['gor']['listen']['port']  = 80                  # port to listen on for 
 default['gor']['forward']['host'] = node[:ip_address]   # hostname or ip to forward to
 default['gor']['replay']['host']  = node[:ip_address]   # hostname or ip to replay on
 default['gor']['replay']['port']  = 28020               # port for the replay server
+
+default['gor']['distribution']['repository'] = 'https://github.com/buger/gor.git'
+default['gor']['distribution']['reference'] = '3ce0942ab5cd830bc318fa27ebce03b5dadd440c'
