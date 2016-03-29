@@ -9,7 +9,7 @@ one of its maintained forks.
 Description
 ===========
 
-_[Hi, have a look at the blog post](http://devblog.springest.com/testing-big-infrastructure-changes-at-springest/)_
+_[Hi, have a look at the blog post](http://devblog.springest.com/testing-big-infrastructure-changes-at-springest)_
 
 __From the makers of [Gor](https://github.com/buger/gor):__
 
