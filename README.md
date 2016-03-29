@@ -1,3 +1,11 @@
+This project is **no longer maintained**.
+
+If you're interested in taking it over, we'd love to hear from you.
+Email [developers@springest.com](mailto:developers@springest.com), or check out
+one of its maintained forks.
+
+*****
+
 Description
 ===========
 
@@ -24,7 +32,7 @@ Attributes
 
 ```ruby
 default['gor']['role']            = 'listen'            # or 'replay'
-default['gor']['listen']['port']  = 80                  # port to listen on for http traffic  
+default['gor']['listen']['port']  = 80                  # port to listen on for http traffic
 default['gor']['forward']['host'] = node[:ip_address]   # hostname or ip to forward to
 default['gor']['replay']['host']  = node[:ip_address]   # hostname or ip to replay on
 default['gor']['replay']['port']  = 28020               # port for the replay server
